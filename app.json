@@ -4,7 +4,7 @@
     "slug": "peras",
     "version": "1.0.0",
     "orientation": "default",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/peraslogo.png",
     "platforms":["ios","android"],
     "splash": {
       "image": "./assets/splash.png",
