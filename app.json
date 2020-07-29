@@ -2,7 +2,7 @@
   "expo": {
     "name": "Peras",
     "slug": "peras",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "orientation": "default",
     "icon": "./assets/peraslogo.png",
     "platforms":["ios","android"],
@@ -18,7 +18,16 @@
       "**/*"
     ],
     "ios": {
+      "bundleIdentifier":"github.com/rk173238/peras",
+      "buildNumber":"1.0.0",
       "supportsTablet": true
+    },
+    "android":{
+      "package":"github.com/rk173238/peras",
+      "versionCode":1,
+      "permission":[
+        "CAMERA","WRITE_EXTERNAL_STORAGE"
+      ]
     },
     "web": {
       "favicon": "./assets/favicon.png"
